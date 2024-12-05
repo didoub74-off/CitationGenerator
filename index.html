@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <title>Quotes Generator</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container"> 
+            <h1>Quotes Generator!</h1>
+            <p>Don't feel motivated ? Click just below to motivate you with some quotes!</p>
+            <h2>Category</h2>
+            <p>Choose the category of quotes you want. <span  style="color:red">*</span></p>
+            <div class="select">
+                <label for="selectCat" style="display: none">Category</label>
+                <select id="selectCat">
+                    <option selected disabled>Choose</option>
+                    <option>Age</option>
+                    <option>Alone</option>
+                    <option>Amazing</option>
+                    <option>Anger</option>
+                    <option>Architecture</option>
+                    <option>Art</option>
+                    <option>Attitude</option>
+                    <option>Beauty</option>
+                    <option>Best</option>
+                    <option>Birthday</option>
+                    <option>Business</option>
+                    <option>Car</option>
+                    <option>Change</option>
+                    <option>Communication</option>
+                    <option>Computers</option>
+                    <option>Cool</option>
+                    <option>Courage</option>
+                    <option>Dad</option>
+                    <option>Dating</option>
+                    <option>Death</option>
+                    <option>Design</option>
+                    <option>Dreams</option>
+                    <option>Education</option>
+                    <option>Environmental</option>
+                    <option>Equality</option>
+                    <option>Experience</option>
+                    <option>Failure</option>
+                    <option>Faith</option>
+                    <option>Family</option>
+                    <option>Famous</option>
+                    <option>Fear</option>
+                    <option>Fitness</option>
+                    <option>Food</option>
+                    <option>Forgiveness</option>
+                    <option>Freedom</option>
+                    <option>Friendship</option>
+                    <option>Funny</option>
+                    <option>Future</option>
+                    <option>God</option>
+                    <option>Good</option>
+                    <option>Government</option>
+                    <option>Graduation</option>
+                    <option>Great</option>
+                    <option>Happiness</option>
+                    <option>Health</option>
+                    <option>History</option>
+                    <option>Home</option>
+                    <option>Hope</option>
+                    <option>Humour</option>
+                    <option>Imagination</option>
+                    <option>Inspirational</option>
+                    <option>Intelligence</option>
+                    <option>Jealousy</option>
+                    <option>Knowledge</option>
+                    <option>Leadership</option>
+                    <option>Learning</option>
+                    <option>Legal</option>
+                    <option>Life</option>
+                    <option>Love</option>
+                    <option>Marriage</option>
+                    <option>Medical</option>
+                    <option>Men</option>
+                    <option>Mom</option>
+                    <option>Morning</option>
+                    <option>Movies</option>
+                    <option>Success</option>
+                </select>
+            </div>
+            <div class="button">
+                <button id="generate">Generate</button>
+                <button id="showFavorite">Show Favorite</button>
+            </div>
+            <div id="quotes-container" style="display: none;">
+                <h3 class="quotes" id="quotes">Experience is the name everyone gives to their mistakes.</h3>
+                <h3 class="author" id="author">Oscar Wilde</h3>
+                <div class="button">
+                    <button id="favorite">Save favorite</button>
+                    <button id="twitter">Share on X</button>
+                </div>
+            </div>
+        </div>
+        <div id="overlay"></div>
+        <div id="favoriteContainer">
+            <h3>Favorites</h3>
+            <ul id="favoriteList">
+
+            </ul>
+            <button id="closePopup">Close</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
