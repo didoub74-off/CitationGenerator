@@ -22,4 +22,6 @@ If you liked the project it's still nice to star the repo, and feel free to rob 
 - Knowledge lol
 
 ## Result ?
+[Click this link](https://didoub74-off.github.io/QuotesGenerator/)
+
 ![](img.png)
